@@ -1,17 +1,17 @@
 Costa Rican Household Poverty Level Prediction
 ===
 
-The project is aimed at predicting the poverty level of the people in Latin America. This pre-diction helps the social programs to focus on the poorest segment of the population. The data for this project is taken from the Kaggle competition in 2018, Costa Rican Household Poverty Level Prediction. The data is provided by Inter- American Development. This problem is a mul-ticlass classification problem with 4 target class variables each depicting a different poverty level and 142 predictor variables. The variables consist of integer variables, numerical variables, categorical variables.
+The project is aimed at predicting the poverty level of the people in Latin America. This prediction helps the social programs to focus on the poorest segment of the population. The data for this project is taken from the Kaggle competition in 2018, Costa Rican Household Poverty Level Prediction. The data is provided by Inter- American Development. This problem is a multiclass classification problem with 4 target class variables each depicting a different poverty level and 142 predictor variables. The variables consist of integer variables, numerical variables, categorical variables.
 
 ----
 Poverty is measured by comparing a person's or family's income to a set poverty threshold or minimum amount of income needed to cover basic needs. People whose income falls under their threshold are considered poor. Many social programs have a hard time making sure the right people are given enough aid. It’s especially tricky when a program focuses on the poorest segment of the population. The world’s poorest typically can’t provide the necessary income and expense records to prove that they qualify. 
-In Latin America, one popular method uses an algorithm to verify income qualification. It’s called the Proxy Means Test (or PMT). With PMT, agencies use a model that considers a family’s observable household attributes like the material of their walls and ceiling, or the assets found in the home to clas-sify them and predict their level of need. While this is an improvement, accuracy remains a problem as the region’s population grows and poverty declines.
+In Latin America, one popular method uses an algorithm to verify income qualification. It’s called the Proxy Means Test (or PMT). With PMT, agencies use a model that considers a family’s observable household attributes like the material of their walls and ceiling, or the assets found in the home to classify them and predict their level of need. While this is an improvement, accuracy remains a problem as the region’s population grows and poverty declines.
 Beyond Costa Rica, many countries face this same problem of inaccurately assessing social need. Our objective is to identify which all households have highest need for social welfare assistance, the new algorithm could be implemented in other countries around the world.
 
 ---
 Problem Definition
 ------
-The objective is to predict poverty level on a household level. We are given data on the individual level with everyone having unique features but also information about their household. To create a dataset for the task, we'll have to perform some aggregations of the individual data for each household. Moreo-ver, we must make a prediction for every individual in the test set. 
+The objective is to predict poverty level on a household level. We are given data on the individual level with everyone having unique features but also information about their household. To create a dataset for the task, we'll have to perform some aggregations of the individual data for each household. Moreover, we must make a prediction for every individual in the test set. 
 
 ------
 
@@ -151,7 +151,7 @@ The KNN approach simply predicts a new sample using the K-closest samples from t
 Choosing the Final Model
 ---
 In each of the models the final model selected is based up on the accuracy and kappa values from the resamples and the parameter tuning. The final model from multinomial Logistic Regression, Gradient Boosting, Support Vector Machine, K-Nearest Neighbor, Random Forest, Neural Network is selected by checking the accuracy and kappa values of the model and also finding the accuracy, kappa and ROC on the validation set.
-It is observed that both accuracy and kappa values are high for Gradient Boosting. Also, let us check the performance of these models on the validation set. 
+It is observed that both accuracy and kappa values are high for Gradient Boosting. 
 
 ---
 List of external links that I used for help
