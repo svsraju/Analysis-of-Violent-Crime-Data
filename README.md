@@ -3,6 +3,10 @@ Costa Rican Household Poverty Level Prediction
 
 The project is aimed at predicting the poverty level of the people in Latin America. This prediction helps the social programs to focus on the poorest segment of the population. The data for this project is taken from the Kaggle competition in 2018, Costa Rican Household Poverty Level Prediction. The data is provided by Inter- American Development. This problem is a multiclass classification problem with 4 target class variables each depicting a different poverty level and 142 predictor variables. The variables consist of integer variables, numerical variables, categorical variables.
 
+<b>Costa Rica Map</b>
+
+![alt_text](https://ontheworldmap.com/costa-rica/map-of-costa-rica-max.jpg)
+
 ----
 Poverty is measured by comparing a person's or family's income to a set poverty threshold or minimum amount of income needed to cover basic needs. People whose income falls under their threshold are considered poor. Many social programs have a hard time making sure the right people are given enough aid. It’s especially tricky when a program focuses on the poorest segment of the population. The world’s poorest typically can’t provide the necessary income and expense records to prove that they qualify. 
 In Latin America, one popular method uses an algorithm to verify income qualification. It’s called the Proxy Means Test (or PMT). With PMT, agencies use a model that considers a family’s observable household attributes like the material of their walls and ceiling, or the assets found in the home to classify them and predict their level of need. While this is an improvement, accuracy remains a problem as the region’s population grows and poverty declines.
